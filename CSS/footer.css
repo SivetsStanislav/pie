@@ -1,0 +1,45 @@
+.footer {
+    background-color: grey;
+}
+
+.footer__logo-container {
+    color: white;
+    margin-left: 20px;
+}
+
+.footer__ul-nav {
+    list-style-type: none;  
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.footer__ul-nav a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.footer__ul-nav li {
+    margin-bottom: 1em;
+}
+
+.footer__tel {
+    margin-left: 20px;
+}
+
+.footer__tel a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__copyright {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 80%;
+}
+
+.footer__hr {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.575);
+    border: none;
+}
