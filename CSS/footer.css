@@ -1,45 +1,78 @@
-.footer {
-    background-color: grey;
+@media only screen and (max-width: 500px) {
+
+    .footer {
+        font-family: 'Roboto', sans-serif;
+        background-color: grey;
+        display: flex;
+        max-height: 415px;
+    }
+
+    .footer__logo-container {
+        color: white;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-bottom: -11px;
+    }
+
+    .logo {
+        font-family: none;
+        font-size: 1.2em;
+        letter-spacing: 1px;
+    }
+
+    .footer__navigation-list {
+        padding: 0;
+        margin-bottom: -15px;
+        margin-left: -20px;
+    }
+
+    .list__item {
+        display: flex;
+        list-style-type: none;            
+    }
+
+    .list__link {
+        text-decoration: none;
+        color: white;
+        line-height: 32px;
+        font-size: 14px;
+    }
+
+    .footer__phone-number {
+        margin-left: 20px; 
+        margin-bottom: 18px;
+    }
+
+    .footer__icons {
+        display: block;
+        font-size: 23px;
+        width: flex;
+        letter-spacing: 6px;
+        margin-left: 20px;
+        margin-bottom: 26px;
+    }
+
+    .footer__copyright {
+        font-family: 'Roboto', sans-serif; 
+        font-size: 0.7em;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        letter-spacing: 0.1em;
+        color: rgba(255, 255, 255, 0.452);
+        word-spacing: 2px;
+    }
+
+    .footer__item-line {
+        margin-right: 20px;
+        padding-right: 280px;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.219);
+        border: none;
+    }
+
 }
 
-.footer__logo-container {
-    color: white;
-    margin-left: 20px;
-}
 
-.footer__ul-nav {
-    list-style-type: none;  
-    padding: 0px;
-    margin-left: 20px;
-}
 
-.footer__ul-nav a {
-    text-decoration: none; 
-    color: white; 
-}
 
-.footer__ul-nav li {
-    margin-bottom: 1em;
-}
-
-.footer__tel {
-    margin-left: 20px;
-}
-
-.footer__tel a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer__copyright {
-    margin-left: 20px;
-    margin-right: 20px;
-    color: rgba(255, 255, 255, 0.575);
-    font-size: 80%;
-}
-
-.footer__hr {
-    height: 1px;
-    background-color: rgba(255, 255, 255, 0.575);
-    border: none;
-}
