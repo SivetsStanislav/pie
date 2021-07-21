@@ -2,24 +2,16 @@
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    width: 320px;
-    height: 440px;
     background-color: #898989;
     justify-content: flex-end;
 }
-
 .footer__body {
-    display: inline-flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px; 
-
+    flex: 1 1 auto;
+    margin: 0px 20px;
 }
 
 .footer__logo-container {
+    margin-top: 40px;
     width: 81px;
 }
 .logo {
@@ -37,7 +29,7 @@
     line-height: normal;
 }
 .footer__navigation-list {
-    margin-top: 22px;
+    margin-top: 20px;
 }
 .navigation-list {
     display: flex;
@@ -50,7 +42,6 @@
     line-height: normal;
 }
 .list__item {
-    display: flex;
     list-style-type: none; 
     flex: 1 1 auto; 
     align-items: baseline;          
@@ -67,18 +58,16 @@
     text-align: left;
 }
 .footer__phone-number {
-    margin-bottom: 18px;
+    margin: 2px 0px 27px 0px;
 }
 .footer__icons {
-    margin-top: 10px;
     font-size: 23px;
     width: flex;
     letter-spacing: 6px;
-    margin-bottom: 26px;
+    margin-bottom: 28px;
 }
 .footer__item-line {
     height: 1px;
-    width: 280px;
     background-color: rgba(255, 255, 255, 0.452);
     border: none;
     margin: 0;
@@ -89,81 +78,11 @@
     letter-spacing: 0.1em;
     color: rgba(255, 255, 255, 0.452);
     word-spacing: 2px;
-    margin-top: 10px;
+    margin: 10px 0px;
 }
 
 
 @media only screen and (min-width: 768px) {
-    .footer {
-        font-family: 'Roboto', sans-serif;
-        background-color: grey;
-        display: flex;
-        height: 140px;
-        width: 100%;
-        padding: 0 20px;
-    }
-
-    .footer__logo-container {
-        display: block;
-        margin-top: 16px;
-        color: white;
-        font-family: none;
-        font-size: 0.8em;
-    }
-
-    .footer__navigation-list {
-        float: right;
-        margin-right: 16px;
-        margin-top: 10px;
-    }
-
-    .navigation-list {
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        transform: rotate(180deg);
-    }
-
-    .navigation-list > .list__item {
-        transform: rotate(-180deg);
-    }
-
-    .list__item {
-        float: right;
-        list-style-type: none;
-    }
-
-    .list__link {
-        display: flex;
-        padding: 1.6em;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        line-height: 32px;
-        font-size: 12px;
-    }
-
-    .footer__phone-number {
-        display: none;
-    }
-
-    .footer__item-line {
-        height: 1px;
-        background-color: rgba(255, 255, 255, 0.062);
-        border: none;
-        margin: 0 45px;
-    }
-
-    .footer__icons {
-        position: relative;
-        display: inline-block;
-        font-size: 23px;
-        width: flex;
-        letter-spacing: 6px;
-    }
+    
 
 }
-
-
-
