@@ -1,77 +1,169 @@
-@media only screen and (max-width: 500px) {
+.footer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    width: 320px;
+    height: 440px;
+    background-color: #898989;
+    justify-content: flex-end;
+}
 
+.footer__body {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px; 
+
+}
+
+.footer__logo-container {
+    width: 81px;
+}
+.logo {
+    flex: 1 1 auto;
+    color: #ffffff;
+    font-family: none;
+    font-size: 28px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43.87px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 1.4px;
+    line-height: normal;
+}
+.footer__navigation-list {
+    margin-top: 22px;
+}
+.navigation-list {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 157px;
+    height: 190px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.list__item {
+    display: flex;
+    list-style-type: none; 
+    flex: 1 1 auto; 
+    align-items: baseline;          
+}
+.list__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+.footer__phone-number {
+    margin-bottom: 18px;
+}
+.footer__icons {
+    margin-top: 10px;
+    font-size: 23px;
+    width: flex;
+    letter-spacing: 6px;
+    margin-bottom: 26px;
+}
+.footer__item-line {
+    height: 1px;
+    width: 280px;
+    background-color: rgba(255, 255, 255, 0.452);
+    border: none;
+    margin: 0;
+}
+.footer__copyright {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.452);
+    word-spacing: 2px;
+    margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 768px) {
     .footer {
         font-family: 'Roboto', sans-serif;
         background-color: grey;
         display: flex;
-        max-height: 415px;
-    }
-
-    .footer__body {
+        height: 140px;
         width: 100%;
-        margin: 0 20px;
+        padding: 0 20px;
     }
 
     .footer__logo-container {
+        display: block;
+        margin-top: 16px;
         color: white;
-        margin-top: 40px;
-        margin-bottom: -11px;
-    }
-
-    .logo {
         font-family: none;
-        font-size: 1.2em;
-        letter-spacing: 1px;
+        font-size: 0.8em;
     }
 
     .footer__navigation-list {
+        float: right;
+        margin-right: 16px;
+        margin-top: 10px;
+    }
+
+    .navigation-list {
+        display: inline-block;
+        margin: 0;
         padding: 0;
-        margin-bottom: -15px;
-        margin-left: -40px;
+        overflow: hidden;
+        transform: rotate(180deg);
+    }
+
+    .navigation-list > .list__item {
+        transform: rotate(-180deg);
     }
 
     .list__item {
-        display: flex;
-        list-style-type: none;            
+        float: right;
+        list-style-type: none;
     }
 
     .list__link {
+        display: flex;
+        padding: 1.6em;
+        text-align: center;
         text-decoration: none;
         color: white;
         line-height: 32px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .footer__phone-number {
-        margin-bottom: 18px;
-    }
-
-    .footer__icons {
-        display: block;
-        font-size: 23px;
-        width: flex;
-        letter-spacing: 6px;
-        margin-bottom: 26px;
-    }
-
-    .footer__copyright {
-        font-family: 'Roboto', sans-serif; 
-        font-size: 0.7em;
-        margin-bottom: 10px;
-        margin-right: 20px;
-        letter-spacing: 0.1em;
-        color: rgba(255, 255, 255, 0.452);
-        word-spacing: 2px;
+        display: none;
     }
 
     .footer__item-line {
         height: 1px;
-        background-color: rgba(255, 255, 255, 0.219);
+        background-color: rgba(255, 255, 255, 0.062);
         border: none;
+        margin: 0 45px;
+    }
+
+    .footer__icons {
+        position: relative;
+        display: inline-block;
+        font-size: 23px;
+        width: flex;
+        letter-spacing: 6px;
     }
 
 }
-
 
 
 
