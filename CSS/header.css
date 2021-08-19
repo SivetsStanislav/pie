@@ -1,5 +1,16 @@
 .header__body {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 .header__logo-container {
-  margin-left: 10px;
+  display: block;
+  flex-grow: 1;
+  margin: 9px 0px 0px 20px;
+}
+
 .header__phone-number-container {
+  display: none;
+  flex-grow: 0;
+}
