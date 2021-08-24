@@ -10,7 +10,33 @@
   margin: 9px 0px 0px 20px;
 }
 
+.header__burger {
+  flex-grow: 4;
+  text-align: right;
+  height: 40px;
+  line-height: 40px;
+}
+
 .header__phone-number-container {
   display: none;
   flex-grow: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .header__logo-container {
+    flex-grow: 1;
+    margin: 18px 0px 15px 45px;
+  }
+
+  .header__burger {
+    flex-grow: 18;
+    margin-top: 10px;
+  }
+
+  .header__phone-number-container {
+    display: block;
+    text-align: left;
+    flex-grow: 2;
+    margin: 22px 0px 0px 0px;
+  }
 }

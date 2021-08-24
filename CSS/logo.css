@@ -14,7 +14,6 @@
 }
 
 .logo.logo--top {
-  z-index: 20;
   font-family: 'Playfair Display', serif;
   color: black;
   font-size: 16px;
@@ -31,6 +30,12 @@
     font-weight: 500;
     text-align: left;
     letter-spacing: 0.6px;
+}
+
+.logo.logo--top {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 }
