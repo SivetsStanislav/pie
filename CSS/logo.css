@@ -23,31 +23,37 @@
 
 @media only screen and (min-width: 768px) {
 
-.logo {
-    color: white;
-    font-family: none;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: left;
-    letter-spacing: 0.6px;
-}
+  .logo {
+      color: white;
+      font-family: none;
+      font-size: 20px;
+      font-weight: 500;
+      text-align: left;
+      letter-spacing: 0.6px;
+  }
 
-.logo.logo--top {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
+  .logo.logo--top {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
 
 }
 
 @media only screen and (min-width: 1366px) {
 
-.logo {
-    color: black;
-    font-size: 30px;
+  .logo {
+      color: black;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 43.87px;
+      letter-spacing: 0.4px;
+  }
+
+  .logo.logo--top {
+    font-size: 22px;
     font-weight: 700;
-    line-height: 43.87px;
-    letter-spacing: 0.4px;
-}
+    letter-spacing: 1.6px;
+  }
 
 }

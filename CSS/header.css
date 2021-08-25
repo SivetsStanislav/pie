@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  background-color: white;
 }
 
 .header__logo-container {
@@ -38,5 +39,30 @@
     text-align: left;
     flex-grow: 2;
     margin: 22px 0px 0px 0px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .header__body {
+    margin: 51px 73px 0px 73px;
+    background-color: rgb(251, 235, 234);
+  }
+
+  .header__logo-container {
+    flex-grow: 1;
+    margin: 0px;
+  }
+
+  .header__burger {
+    flex-grow: 11;
+    margin: 0px;
+  }
+
+  .header__phone-number-container {
+    display: block;
+    text-align: right;
+    flex-grow: 9;
+    margin: 0px;
+    margin: 15px 0px 0px 0px;
   }
 }

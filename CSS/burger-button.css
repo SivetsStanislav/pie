@@ -43,3 +43,16 @@
     width: 320px;
   }
 }
+
+@media only screen and (min-width: 1366px) {
+  .dropdown__container {
+    position: static;
+    display: block;
+    width: 100%;
+    margin: 12px 0px 0px 0px;
+  }
+
+  .label {
+    display: none;
+  }
+}

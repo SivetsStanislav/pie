@@ -21,3 +21,9 @@
   }
 
 }
+
+@media only screen and (min-width: 1366px) {
+  .phone-number.phone-number--top {
+    font-size: 15px;
+  }
+}
