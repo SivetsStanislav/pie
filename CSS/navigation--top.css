@@ -44,8 +44,12 @@
     font-weight: 500;
   }
 
-  .navigation--top .list__item:nth-child(2) .list__link {
+  .navigation--top .list__link:hover {
     color: red;
   }
+
+  .navigation--top .list__link:active {
+    color: rgba(161, 0, 0, 0.747);
+}
 
 }
