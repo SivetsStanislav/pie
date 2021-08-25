@@ -1,39 +1,43 @@
 .logo {
-    flex: 1 1 auto;
-    color: #ffffff;
-    font-family: none;
-    font-size: 28px;
-    font-weight: 900;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 43.87px;
-    text-align: left;
-    font-style: normal;
-    letter-spacing: 1.4px;
-    line-height: normal;
+  flex: 1 1 auto;
+  color: #ffffff;
+  font-family: none;
+  font-size: 28px;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 43.87px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 1.4px;
+  line-height: normal;
+}
+
+.logo.logo--alternative {
+  color: black;
 }
 
 @media only screen and (min-width: 768px) {
 
-.logo {
+  .logo {
     color: white;
     font-family: none;
     font-size: 20px;
     font-weight: 500;
     text-align: left;
     letter-spacing: 0.6px;
-}
+  }
 
 }
 
 @media only screen and (min-width: 1366px) {
 
-.logo {
+  .logo {
     color: black;
     font-size: 30px;
     font-weight: 700;
     line-height: 43.87px;
     letter-spacing: 0.4px;
-}
+  }
 
 }
