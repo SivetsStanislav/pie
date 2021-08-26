@@ -20,7 +20,7 @@
 
 .navigation-list__link {
   text-decoration: none;
-  color: #ffffff;
+  color: white;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -55,7 +55,7 @@
   .navigation-list__link {
     font-size: 12px;
     font-weight: 400;
-    color: #ffffff;
+    color: white;
   }
 
 }
@@ -76,7 +76,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-    color: #000000;
+    color: #2d2829;
   }
 
 }
