@@ -15,6 +15,14 @@
   color: black;
 }
 
+.navigation--top .list__link:hover {
+  color: rgb(129, 129, 129);
+}
+
+.navigation--top .list__link:active {
+  color: rgb(73, 73, 73);
+}
+
 @media only screen and (min-width: 768px) {
   .navigation--top .navigation-list {
     display: flex;
