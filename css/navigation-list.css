@@ -11,14 +11,14 @@
     line-height: normal;
 }
 
-.list__item {
+.navigation-list__item {
     list-style-type: none;
     flex: 1 1 auto;
     align-items: baseline;
     margin-bottom: 13px;
 }
 
-.list__link {
+.navigation-list__link {
     text-decoration: none;
     color: #ffffff;
     font-family: Roboto;
@@ -42,16 +42,16 @@
         width: 100%;
     }
 
-    .list__item {
+    .navigation-list__item {
         text-align: left;
         margin: 0px 0px 0px 8px;
     }
 
-    .list__item:last-of-type {
+    .navigation-list__item:last-of-type {
       text-align: center;
     }
 
-    .list__link {
+    .navigation-list__link {
         font-size: 12px;
         font-weight: 400;
         color: #ffffff;
@@ -65,11 +65,11 @@
       order: 2;
     }
 
-    .list__item {
+    .navigation-list__item {
         margin: 0px;
     }
 
-    .list__link {
+    .navigation-list__link {
          font-family: 'circe', sans-serif;
          font-style: normal;
          font-weight: 400;
