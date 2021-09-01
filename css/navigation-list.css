@@ -3,80 +3,77 @@
 }
 
 .navigation-list {
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
 }
 
 .navigation-list__item {
-  list-style-type: none;
-  flex: 1 1 auto;
-  align-items: baseline;
-  margin-bottom: 13px;
+    list-style-type: none;
+    flex: 1 1 auto;
+    align-items: baseline;
+    margin-bottom: 13px;
 }
 
 .navigation-list__link {
-  text-decoration: none;
-  color: white;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
 }
 
 @media only screen and (min-width: 768px) {
+    .navigation {
+      margin: auto;
+      width: 84%;
+      order: 2;
+    }
 
-  .navigation {
-    margin: auto;
-    width: 84%;
-    order: 2;
-  }
+    .navigation-list {
+        flex-direction: row;
+        width: 100%;
+    }
 
-  .navigation-list {
-    flex-direction: row;
-    width: 100%;
-  }
+    .navigation-list__item {
+        text-align: left;
+        margin: 0px 0px 0px 8px;
+    }
 
-  .navigation-list__item {
-    text-align: left;
-    margin: 0px 0px 0px 8px;
-  }
+    .navigation-list__item:last-of-type {
+      text-align: center;
+    }
 
-  .navigation-list__item:last-of-type {
-    text-align: center;
-  }
-
-  .navigation-list__link {
-    font-size: 12px;
-    font-weight: 400;
-    color: white;
-  }
-
+    .navigation-list__link {
+        font-size: 12px;
+        font-weight: 400;
+        color: #ffffff;
+    }
 }
 
 @media only screen and (min-width: 1366px) {
-  .navigation {
-    width: 64%;
-    margin: 43px 0px auto 162px;
-    order: 2;
-  }
+    .navigation {
+      width: 64%;
+      margin: 43px 0px auto 162px;
+      order: 2;
+    }
 
-  .navigation-list__item {
-    margin: 0px;
-  }
+    .navigation-list__item {
+        margin: 0px;
+    }
 
-  .navigation-list__link {
-    font-family: 'circe', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    color: #2d2829;
-  }
-
+    .navigation-list__link {
+         font-family: 'circe', sans-serif;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 15px;
+         color: #000000;
+    }
 }

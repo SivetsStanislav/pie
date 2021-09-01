@@ -1,6 +1,6 @@
 .phone-number {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
@@ -8,4 +8,22 @@
   letter-spacing: normal;
   line-height: normal;
   text-align: left;
+}
+
+.phone-number.phone-number--top {
+  color: black;
+}
+
+@media only screen and (min-width: 768px) {
+  .phone-number.phone-number--top {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+}
+
+@media only screen and (min-width: 1366px) {
+  .phone-number.phone-number--top {
+    font-size: 15px;
+  }
 }

@@ -1,31 +1,42 @@
 .logo {
-  flex: 1 1 auto;
-  color: #ffffff;
-  font-family: none;
-  font-size: 28px;
-  font-weight: 900;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 43.87px;
-  text-align: left;
-  font-style: normal;
-  letter-spacing: 1.4px;
-  line-height: normal;
+    flex: 1 1 auto;
+    color: #ffffff;
+    font-family: none;
+    font-size: 28px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43.87px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 1.4px;
+    line-height: normal;
 }
 
-.logo.logo--alternative {
-  color: black;
+.logo.logo--top {
+  font-family: 'Playfair Display', serif;
+  color: #2d2829;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 @media only screen and (min-width: 768px) {
 
   .logo {
-    color: white;
-    font-family: none;
+      color: white;
+      font-family: none;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: left;
+      letter-spacing: 0.6px;
+  }
+
+  .logo.logo--top {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
+    letter-spacing: 1px;
     text-align: left;
-    letter-spacing: 0.6px;
   }
 
 }
@@ -38,6 +49,12 @@
     font-weight: 700;
     line-height: 43.87px;
     letter-spacing: 0.4px;
+  }
+
+  .logo.logo--top {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
   }
 
 }
