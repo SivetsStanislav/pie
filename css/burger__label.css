@@ -12,11 +12,11 @@
   .burger__label {
     display: block;
     cursor: pointer;
+    margin: 0px;
+    float: left;
     font-size: 30px;
     line-height: 40px;
     width: 20px;
-    margin: 0px;
-    float: left;
   }
 }
 
