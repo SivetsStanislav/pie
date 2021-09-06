@@ -1,0 +1,17 @@
+.home-section {
+  display: flex;
+  flex-direction: column;
+  background: url('../images/home-cake.png') no-repeat;
+  background-position: 50%;
+  background-color: rgb(251, 235, 234);
+  height: 100%;
+  width: 100%;
+}
+
+.home__сakes-to-order {
+  font-family: 'Playfair Display', serif;
+}
+
+.home__handmade {
+  font-family: 'introScriptR-H2Base';
+}

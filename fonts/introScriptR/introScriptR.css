@@ -1,0 +1,10 @@
+@font-face {
+  font-family: introScriptR-H2Base;
+  src: url('./IntroScriptR-H2Base.otf') format("opentype");
+}
+
+@font-face {
+  font-family: introScriptR-H2Base;
+  src: url('./IntroScriptR-H2Base.otf') format("opentype");
+  font-weight: bold;
+}
