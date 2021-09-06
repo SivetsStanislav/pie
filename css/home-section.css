@@ -26,4 +26,9 @@
 
 .home__handmade {
   font-family: 'introScriptR-H2Base';
+  text-align: center;
+  color: rgb(50, 49, 61);
+  font-size: 22px;
+  margin: 22px 0px 0px 0px;
+  padding-right: 6px;
 }
