@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
@@ -15,88 +16,111 @@
   <link rel="stylesheet" type="text/css" href="css/navigation-list.css">
   <link rel="stylesheet" type="text/css" href="css/phone-number.css">
   <link rel="stylesheet" type="text/css" href="css/icons-font.css">
+  <link rel="stylesheet" type="text/css" href="css/home-section.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body class="body">
   <header class="header">
     <div class="header__body">
-    <div class="header__logo-container">
-      <h2 class="logo logo--top">Cakes</h2>
-    </div>
+      <div class="header__logo-container">
+        <h2 class="logo logo--top">Cakes</h2>
+      </div>
       <div class="header__dropdown">
         <div class="dropdown">
           <label class="dropdown__label" for="toggle">☰</label>
           <input class="dropdown__input" type="checkbox" id="toggle">
-      <div class="dropdown__container">
-        <nav class="navigation navigation--top">
-          <ul class="navigation-list">
-            <li class="navigation-list__item">
-              <a class="navigation-list__link" href="#our-cakes">Наши торты</a>
-            </li>
-            <li class="navigation-list__item">
-              <a class="navigation-list__link" href="#personal-order">Индивидуальный заказ</a>
-            </li>
-            <li class="navigation-list__item">
-              <a class="navigation-list__link" href="#reviews">Отзывы</a>
-            </li>
-            <li class="navigation-list__item">
-              <a class="navigation-list__link" href="#about-us">О нас</a>
-            </li>
-            <li class="navigation-list__item">
-              <a class="navigation-list__link" href="#our-advantages">Как заказать</a>
-            </li>
-            <li class="navigation-list__item">
-              <a class="navigation-list__link" href="#contacts">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+          <div class="dropdown__container">
+            <nav class="navigation navigation--top">
+              <ul class="navigation-list">
+                <li class="navigation-list__item">
+                  <a class="navigation-list__link" href="#our-cakes">Наши торты</a>
+                </li>
+                <li class="navigation-list__item">
+                  <a class="navigation-list__link" href="#personal-order">Индивидуальный заказ</a>
+                </li>
+                <li class="navigation-list__item">
+                  <a class="navigation-list__link" href="#reviews">Отзывы</a>
+                </li>
+                <li class="navigation-list__item">
+                  <a class="navigation-list__link" href="#about-us">О нас</a>
+                </li>
+                <li class="navigation-list__item">
+                  <a class="navigation-list__link" href="#our-advantages">Как заказать</a>
+                </li>
+                <li class="navigation-list__item">
+                  <a class="navigation-list__link" href="#contacts">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="header__phone-number-container">
+        <a class="phone-number phone-number--top" href=tel:+79068999296>+7 906 899 92 96</a>
       </div>
-    <div class="header__phone-number-container">
-      <a class="phone-number phone-number--top" href=tel:+79068999296>+7 906 899 92 96</a>
-    </div>
     </div>
   </header>
-  <footer class="footer">
-    <div class="footer__body">
-    <div class="footer__logo-container">
-      <h2 class="logo">Cakes</h2>
-    </div>
-    <nav class="navigation">
-      <ul class="navigation-list">
-        <li class="navigation-list__item">
-          <a class="navigation-list__link" href="#our-cakes">Наши торты</a>
+  <section class="home-section">
+    <h1 class="сakes-to-order">
+      Торты на заказ
+    </h1>
+    <p class="handmade">
+      Ручная работа
+    </p>
+    <div class="home-icons">
+      <ul class="icons-list">
+        <li class="dignity-icon _icon-leaf">
+          Натуральные ингредиенты
         </li>
-        <li class="navigation-list__item">
-          <a class="navigation-list__link" href="#personal-order">Индивидуальный заказ</a>
-        </li>
-        <li class="navigation-list__item">
-          <a class="navigation-list__link" href="#reviews">Отзывы</a>
-        </li>
-        <li class="navigation-list__item">
-          <a class="navigation-list__link" href="#about-us">О нас</a>
-        </li>
-        <li class="navigation-list__item">
-          <a class="navigation-list__link" href="#our-advantages">Как заказать</a>
-        </li>
-        <li class="navigation-list__item">
-          <a class="navigation-list__link" href="#contacts">Контакты</a>
+        <li class="dignity-icon _icon-gift">
+          Доставка бесплатно при заказе от 2000 рублей*
         </li>
       </ul>
-    </nav>
-    <div class="footer__phone-number-container">
-      <a class="phone-number" href=tel:+79068999296>+7 906 899 92 96</a>
     </div>
-    <div class="footer__icons-container">
-      <a href="" class="social-media-icon _icon-instagram"></a>
-      <a href="" class="social-media-icon _icon-vk"></a>
-    </div>
-    <hr class="footer__item-line">
-    <div class="footer__copyright">&copy; 2018 Cakes</div>
+    <button class="chose-cake">
+      Выбрать торт
+    </button>
+  </section>
+  <footer class="footer">
+    <div class="footer__body">
+      <div class="footer__logo-container">
+        <h2 class="logo">Cakes</h2>
+      </div>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-list__item">
+            <a class="navigation-list__link" href="#our-cakes">Наши торты</a>
+          </li>
+          <li class="navigation-list__item">
+            <a class="navigation-list__link" href="#personal-order">Индивидуальный заказ</a>
+          </li>
+          <li class="navigation-list__item">
+            <a class="navigation-list__link" href="#reviews">Отзывы</a>
+          </li>
+          <li class="navigation-list__item">
+            <a class="navigation-list__link" href="#about-us">О нас</a>
+          </li>
+          <li class="navigation-list__item">
+            <a class="navigation-list__link" href="#our-advantages">Как заказать</a>
+          </li>
+          <li class="navigation-list__item">
+            <a class="navigation-list__link" href="#contacts">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__phone-number-container">
+        <a class="phone-number" href=tel:+79068999296>+7 906 899 92 96</a>
+      </div>
+      <div class="footer__icons-container">
+        <a href="" class="social-media-icon _icon-instagram"></a>
+        <a href="" class="social-media-icon _icon-vk"></a>
+      </div>
+      <hr class="footer__item-line">
+      <div class="footer__copyright">&copy; 2018 Cakes</div>
     </div>
   </footer>
 </body>
