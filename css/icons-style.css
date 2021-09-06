@@ -1,5 +1,6 @@
 @font-face {
   font-family: 'icons';
+  src:  url('fonts/icons.eot?zdimyb');
   src:  url('fonts/icons.eot?zdimyb#iefix') format('embedded-opentype'),
     url('fonts/icons.ttf?zdimyb') format('truetype'),
     url('fonts/icons.woff?zdimyb') format('woff'),
@@ -9,10 +10,10 @@
   font-display: block;
 }
 
-[class^="_icon-"],
-[class*=" _icon-"] {
+[class^="_icon-"], [class*=" _icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icons';
+  font-family: 'icons' !important;
+  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
