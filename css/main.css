@@ -30,7 +30,24 @@
 
 .main-list {
   display: flex;
+  align-self: center;
   flex-direction: column;
-  justify-content: space-between 10px;
   margin: 20px 0px 0px 20px;
+}
+
+.main-button {
+  align-self: center;
+  font-family: 'circe';
+  text-transform: uppercase;
+  background-color: #f50049;
+  color: #ffffff;
+  height: 50px;
+  width: 225px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 31px;
+}
+
+.main-button:hover {
+  box-shadow: 0 3px 6px #f50049;
 }
