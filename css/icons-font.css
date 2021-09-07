@@ -30,12 +30,15 @@
 ._icon-gift:before {
   content: "\e99f";
 }
-._icon-leaf:before {
-  content: "\e9a4";
+
+._icon-cereal:before {
+  content: "\e900";
 }
+
 ._icon-instagram:before {
   content: "\ea92";
 }
+
 ._icon-vk:before {
   content: "\ea98";
 }

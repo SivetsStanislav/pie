@@ -1,0 +1,11 @@
+.main-list__text {
+  font-family: 'circe';
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  margin: 3px 0px 0px 10px;
+}
+.main-list__item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+}
