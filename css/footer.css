@@ -8,23 +8,21 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  flex: 1 1 auto;
-  margin: 0px 20px;
+  padding: 37px 20px 0px 20px;
 }
 
-.footer__logo-container {
-  margin-top: 40px;
+.footer__navigation {
+  padding-top: 5px;
 }
 
 .footer__phone-number-container {
-  margin: 0px 0px 27px 0px;
+  padding-top: 14px;
 }
 
 .footer__icons-container {
   font-size: 23px;
-  width: flex;
   letter-spacing: 6px;
-  margin-bottom: 28px;
+  padding: 27px 0px 28px 0px;
 }
 
 .footer__item-line {
@@ -36,33 +34,30 @@
 }
 
 .footer__copyright {
-  font-family: 'Roboto', sans-serif;
-  font-size: 0.7em;
-  letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.452);
-  word-spacing: 2px;
-  margin: 10px 0px;
+  padding: 10px 0px;
 }
 
 
 @media only screen and (min-width: 768px) {
 
   .footer__body {
-    display: flex;
     flex-direction: row;
-
-    flex: 1 1 auto;
-    margin: 0px 0px 0px 0px;
+    padding: 29px 20px 10px 20px;
   }
 
   .footer__logo-container {
     order: 1;
-    margin: 32px 50px 34px 20px;
+    padding-right: 45px;
+  }
+
+  .footer__navigation {
+    order: 2;
+    flex-grow: 1;
   }
 
   .footer__item-line {
     order: 3;
-    margin: 0px 66px 14px 66px;
+    margin: 35px 46px 14px 46px;
   }
 
   .footer__phone-number-container {
@@ -71,21 +66,14 @@
 
   .footer__copyright {
     order: 4;
-    flex-basis: 47%;
-    flex-grow: 0;
-    align-self: center;
-    margin: auto;
-    margin-bottom: 19px;
-    text-align: right;
+    flex-grow: 1;
+    padding: 6px 30px 0px 0px;
   }
 
   .footer__icons-container {
     order: 5;
-    flex-basis: 45%;
-    flex-grow: 0;
-    align-self: center;
-    margin: auto;
-    margin-bottom: 13px;
+    flex-grow: 1;
+    padding: 0px 5px 0px 0px;
   }
 
 }
@@ -97,33 +85,35 @@
   }
 
   .footer__body {
-    margin: 0px 73px;
+    padding: 33px 75px 20px 75px
   }
 
   .footer__logo-container {
     order: 1;
-    margin: 30px 0px 37px 0px;
+    padding-right: 100px;
+  }
+
+  .footer__navigation {
+    order: 2;
+    padding: 12px 155px 0px 45px;
   }
 
   .footer__icons-container {
     order: 3;
-    flex-basis: auto;
-    text-align: right;
-    margin: 47px 3px auto auto;
+    flex-grow: unset;
+    padding: 15px 0px 0px 0px;
   }
 
   .footer__item-line {
     order: 4;
     background-color: #d0d0d0;
-    margin: 0px;
+    margin: 40px 0px 0px 0px;
   }
 
   .footer__copyright {
-    flex-basis: 100%;
     order: 5;
     align-self: center;
-    text-align: center;
-    margin: 19px;
+    padding: 18px 0px 0px 0px;
     color: rgba(0, 0, 0, 0.425);
   }
 

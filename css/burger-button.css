@@ -10,10 +10,9 @@
 .dropdown__label {
   display: block;
   cursor: pointer;
-  margin: 0 23px 0 0;
   font-size: 22px;
-  line-height: 40px;
-  width: 26px;
+  line-height: 23px;
+  width: 23px;
   float: right;
 }
 
@@ -45,6 +44,9 @@
 }
 
 @media only screen and (min-width: 1366px) {
+  .dropdown {
+    padding: 8px 49px 0px 0px;
+  }
   .dropdown__label {
     display: none;
   }
@@ -53,6 +55,5 @@
     position: static;
     display: block;
     width: 100%;
-    margin: 12px 0px 0px 0px;
   }
 }

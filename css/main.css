@@ -41,6 +41,7 @@
   text-transform: uppercase;
   background-color: #f50049;
   color: #ffffff;
+  cursor: pointer;
   height: 50px;
   width: 225px;
   border-radius: 30px;

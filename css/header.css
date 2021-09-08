@@ -3,66 +3,49 @@
   flex-wrap: wrap;
   flex-direction: row;
   background-color: white;
-}
-
-.header__logo-container {
-  display: block;
-  flex-grow: 1;
-  margin: 9px 0px 0px 20px;
+  padding: 9px 23px 8px 20px;
 }
 
 .header__dropdown {
-  flex-grow: 4;
+  flex-grow: 1;
   text-align: right;
-  height: 40px;
-  line-height: 40px;
 }
 
 .header__phone-number-container {
   display: none;
-  flex-grow: 0;
 }
 
 @media only screen and (min-width: 768px) {
+  .header__body {
+    padding: 11px 46px 9px 46px;
+  }
   .header__logo-container {
-    flex-grow: 1;
-    margin: 18px 0px 15px 45px;
+    padding-top: 7px;
   }
 
   .header__dropdown {
-    flex-grow: 18;
-    margin-top: 10px;
+    padding-left: 25px;
   }
 
   .header__phone-number-container {
     display: block;
-    text-align: left;
-    flex-grow: 2;
-    margin: 22px 0px 0px 0px;
+    padding: 12px 0px 0px 0px;
   }
 }
 
 @media only screen and (min-width: 1366px) {
   .header__body {
-    margin: 51px 73px 0px 73px;
+    padding: 55px 73px 0px 73px;
     background-color: rgb(251, 235, 234);
   }
 
-  .header__logo-container {
-    flex-grow: 1;
-    margin: 0px;
-  }
-
   .header__dropdown {
-    flex-grow: 11;
-    margin: 0px;
+    flex-grow: 1;
+    padding: 0px 200px 0px 45px;
   }
 
   .header__phone-number-container {
-    display: block;
     text-align: right;
-    flex-grow: 9;
-    margin: 0px;
-    margin: 15px 0px 0px 0px;
+    padding: 12px 0px 0px 0px;
   }
 }

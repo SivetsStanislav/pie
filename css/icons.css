@@ -9,7 +9,11 @@
   color: rgba(255, 255, 255, 0.452);
 }
 
-.main-list__dignity-icon::before{
+.social-media-icon::before:hover {
+  color: #ffffff;
+}
+
+.main-list__dignity-icon::before {
   flex-basis: 20%;
   font-family: 'icons' !important;
   font-style: normal;
