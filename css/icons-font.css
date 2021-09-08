@@ -33,6 +33,7 @@
 
 ._icon-cereal:before {
   content: "\e900";
+  font-weight: 700;
 }
 
 ._icon-instagram:before {
