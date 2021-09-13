@@ -1,0 +1,16 @@
+.list__icons-box {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+
+.list__icons-box:first-of-type {
+  padding-top: 0px;
+}
+
+.icons-box__text {
+  font-family: 'circe';
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  padding-left: 10px;
+}
