@@ -1,10 +1,16 @@
 .navigation-list {
   display: flex;
   flex-direction: column;
+  align-items: baseline;
 }
 
 .navigation-list__item {
-  padding-top: 15px;
+  padding-top: 16px;
+
+}
+
+.navigation-list__item:first-of-type {
+  padding-top: 0px;
 }
 
 .navigation-list__link {
@@ -13,28 +19,18 @@
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  text-align: left;
 }
 
 @media only screen and (min-width: 768px) {
-  .navigation {
-    padding: 0px 15px;
-  }
   .navigation-list {
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
   }
-  .navigation-list__item {
-    padding: 0px;
-    text-align: right;
-  }
+
   .navigation-list__item:last-of-type {
-    text-align: right;
+    padding-right: 15px;
   }
+
   .navigation-list__link {
     font-size: 12px;
     font-weight: 400;
@@ -43,18 +39,23 @@
 }
 
 @media only screen and (min-width: 1366px) {
+  .navigation-list {
+    align-self: center;
+
+  }
+
   .navigation-list__item {
-    margin: 0px;
+    padding: 0px;
   }
 
   .navigation-list__item:last-of-type {
-    text-align: left;
+    padding: 0px;
   }
 
   .navigation-list__link {
     font-family: 'circe', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 15px;
     letter-spacing: 1px;
     color: #000000;
