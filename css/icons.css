@@ -8,7 +8,7 @@
   color: #ffffff;
 }
 
-.main-list__dignity-icon::before {
+.icons-box__dignity-icon::before {
   flex-basis: 20%;
   font-family: 'icons' !important;
   font-style: normal;

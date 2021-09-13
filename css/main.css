@@ -1,14 +1,14 @@
 .main {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background: url('../images/home-cake.png') no-repeat;
   background-position: center top -210px;
   background-color: rgb(251, 235, 234);
-  height: 100%;
-  width: 100%;
+  padding: 0px 20px;
 }
 
-.main-title {
+.main__title {
   font-family: 'Playfair Display', serif;
   color: rgb(45, 40, 41);
   text-align: center;
@@ -16,27 +16,24 @@
   font-weight: 700;
   letter-spacing: 2.5px;
   line-height: 0.9;
-  margin: 127px 0px 0px 0px;
+  padding-top: 127px;
 }
 
-.main-handmade {
+.main__caption {
   font-family: 'introScriptR-H2Base';
-  text-align: center;
   color: rgb(50, 49, 61);
   font-size: 22px;
-  margin: 22px 0px 0px 0px;
-  padding-right: 6px;
+  padding-top: 22px;
 }
 
-.main-list {
+.main__list {
   display: flex;
-  align-self: center;
+  align-self: flex-start;
   flex-direction: column;
-  margin: 20px 0px 0px 0px;
+  padding-top: 20px;
 }
 
-.main-button {
-  align-self: center;
+.main__button {
   font-family: 'circe';
   text-transform: uppercase;
   background-color: #f50049;
@@ -46,9 +43,32 @@
   width: 225px;
   border-radius: 30px;
   border: none;
-  margin: 31px 0px 10px 0px;
+  margin: 32px 0px 10px 0px;
 }
 
-.main-button:hover {
+.main__button:hover {
   box-shadow: 0 3px 6px #f50049;
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    align-items: flex-start;
+    padding: 0px 50px;
+  }
+
+  .main__title {
+    order: 1;
+  }
+
+  .main__caption {
+    order: 2;
+  }
+
+  .main__button {
+    order: 3;
+  }
+
+  .main__list {
+    order: 4;
+  }
 }
