@@ -6,6 +6,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/body.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
   <link rel="stylesheet" type="text/css" href="css/header.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
   <link rel="stylesheet" type="text/css" href="css/logo.css">
@@ -29,7 +30,7 @@
 
 <body class="body">
   <header class="header">
-    <div class="header__body">
+    <div class="base header__body">
       <div class="header__logo-container">
         <h2 class="logo logo--top">Cakes</h2>
       </div>
@@ -69,28 +70,30 @@
     </div>
   </header>
   <section class="main">
-    <h1 class="main__title">
-      Торты<br>на заказ
-    </h1>
-    <p class="main__caption">
-      Ручная работа
-    </p>
-    <ul class="main__list">
-      <li class="list__icons-box">
-        <div class="icons-box__dignity-icon _icon-cereal"></div>
-        <p class="icons-box__text">Натуральные ингридиенты</p>
-      </li>
-      <li class="list__icons-box">
-        <div class="icons-box__dignity-icon _icon-gift"></div>
-        <p class="icons-box__text">Доставка бесплатно при заказе от 2000 рублей*</p>
-      </li>
-    </ul>
-    <button class="main__button">
-      Выбрать торт
-    </button>
+    <div class="base main-content">
+      <h1 class="main__title">
+        Торты<br>на заказ
+      </h1>
+      <p class="main__caption">
+        Ручная работа
+      </p>
+      <ul class="main__list">
+        <li class="list__icons-box">
+          <div class="icons-box__dignity-icon _icon-cereal"></div>
+          <p class="icons-box__text">Натуральные ингридиенты</p>
+        </li>
+        <li class="list__icons-box">
+          <div class="icons-box__dignity-icon _icon-gift"></div>
+          <p class="icons-box__text">Доставка бесплатно при заказе от 2000 рублей*</p>
+        </li>
+      </ul>
+      <button class="main__button">
+        Выбрать торт
+      </button>
+    </div>
   </section>
   <footer class="footer">
-    <div class="footer__body">
+    <div class="base footer__body">
       <div class="footer__logo-container">
         <h2 class="logo">Cakes</h2>
       </div>

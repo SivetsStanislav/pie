@@ -30,10 +30,14 @@
 }
 
 @media only screen and (min-width: 1366px) {
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
   .header__body {
     align-items: flex-end;
     height: 85px;
-    padding: 0px 75px;
     background-color: rgb(251, 235, 234);
   }
 
