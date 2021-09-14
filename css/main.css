@@ -28,9 +28,10 @@
 
 .main__list {
   display: flex;
-  align-self: flex-start;
   flex-direction: column;
   padding-top: 20px;
+  padding-bottom: 32px;
+  width: 100%;
 }
 
 .main__button {
@@ -43,7 +44,6 @@
   width: 225px;
   border-radius: 30px;
   border: none;
-  margin: 32px 0px 10px 0px;
 }
 
 .main__button:hover {
@@ -53,15 +53,31 @@
 @media only screen and (min-width: 768px) {
   .main {
     align-items: flex-start;
+    background: url('../images/home-cake__desktop.png'),
+                url('../images/whtie-berry__top.png'),
+                url('../images/white-raspberries.png'),
+                url('../images/white-berry__bot.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 330px center,
+                         325px 30px,
+                         290px 250px,
+                         270px 400px;
+    background-color: rgb(251, 235, 234);
     padding: 0px 50px;
   }
 
   .main__title {
     order: 1;
+    font-size: 60px;
+    padding-top: 103px;
+    text-align: left;
   }
 
   .main__caption {
     order: 2;
+    font-size: 35px;
+    padding-top: 28px;
+    padding-bottom: 55px;
   }
 
   .main__button {
@@ -70,5 +86,7 @@
 
   .main__list {
     order: 4;
+    flex-direction: row;
+    padding-top: 149px;
   }
 }

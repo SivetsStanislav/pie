@@ -9,16 +9,20 @@
 }
 
 .icons-box__dignity-icon::before {
-  flex-basis: 20%;
   font-family: 'icons' !important;
-  font-style: normal;
-  font-weight: 100;
-  font-variant: normal;
   font-size: 32px;
-  text-transform: none;
-  text-decoration: none;
-  line-height: 1;
   color: #f5074e;
+}
+
+._icon-cereal:before {
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+  .icons-box__dignity-icon::before {
+    font-size: 52px;
+  }
+
 }
 
 @media only screen and (min-width: 1366px) {
