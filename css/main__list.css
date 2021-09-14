@@ -22,3 +22,13 @@
     width: 220px;
   }
 }
+
+@media only screen and (min-width: 1366px) {
+  .list__icons-box {
+    width: 230px;
+  }
+
+  .icons-box__text {
+    padding-left: 18px;
+  }
+}
