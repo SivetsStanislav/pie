@@ -1,0 +1,33 @@
+.cell {
+  padding: 13px 10px;
+}
+
+.cell:hover {
+  background-color: white;
+  opacity: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  .cell {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15px 15px;
+    background-position: center;
+    background-color: white;
+    padding: 22px 74px 32px 25px;
+  }
+
+  .cell:hover {
+    box-shadow: 5px 10px 15px #edc6ce;
+    cursor: pointer;
+    opacity: 100%;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .cell {
+    grid-template-columns: 1fr 150px 50px;
+    grid-template-rows: 30px 30px 1fr;
+    padding: 35px 65px 35px 47px;
+  }
+}

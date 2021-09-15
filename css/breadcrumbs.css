@@ -1,0 +1,9 @@
+.breadcrumbs {
+  background-color: rgb(251, 235, 234);
+}
+
+@media only screen and (min-width: 1366px) {
+  .breadcrumbs {
+    margin-top: -164px;
+  }
+}
