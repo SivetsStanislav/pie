@@ -1,0 +1,32 @@
+.menu-of-cakes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-of-cakes__title {
+  padding-top: 49px;
+}
+
+.menu-of-cakes__list {
+  width: 100%;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-of-cakes {
+    align-items: inherit;
+    padding: 0px 20px;
+  }
+
+  .menu-of-cakes__title {
+    width: 100%;
+    padding-top: 106px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .menu-of-cakes {
+    padding: 0px 73px;
+  }
+}
