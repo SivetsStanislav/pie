@@ -1,0 +1,24 @@
+.copyright {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.452);
+  word-spacing: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+  .copyright {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .copyright {
+    text-align: center;
+    color: #acacac;
+    font-size: 0.73em;
+    letter-spacing: 0.05em;
+  }
+
+}
+

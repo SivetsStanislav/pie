@@ -1,0 +1,65 @@
+.cake-list__item {
+  place-self: stretch;
+}
+
+.cake-list__item:nth-child(1) {
+  grid-area: classic;
+}
+
+.cake-list__item:nth-child(2) {
+  grid-area: mus;
+}
+
+.cake-list__item:nth-child(3) {
+  grid-area: wedding;
+}
+
+.cake-list__item:nth-child(4) {
+  grid-area: for-men;
+}
+
+.cake-list__item:nth-child(5) {
+  grid-area: for-women;
+}
+
+.cake-list__item:nth-child(6) {
+  grid-area: for-kids;
+}
+
+.cake-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 120px);
+  grid-template-areas:
+    "classic"
+    "mus"
+    "wedding"
+    "for-men"
+    "for-women"
+    "for-kids";
+  grid-row-gap: 10px;
+  padding: 33px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  .cake-list {
+    padding: 40px 0px;
+    grid-template-columns: 2.56fr 1fr 2.56fr;
+    grid-template-rows: repeat(4, 184px);
+    grid-template-areas:
+    "classic classic mus"
+    "classic classic wedding"
+    "for-men for-kids for-kids"
+    "for-women for-kids for-kids";
+    grid-gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .cake-list {
+    padding: 66px 0px;
+    grid-template-columns: 2.63fr 0.92fr 2.63fr;
+    grid-template-rows: repeat(4, 306px);
+    grid-gap: 42px;
+  }
+}

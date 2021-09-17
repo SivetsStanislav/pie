@@ -1,0 +1,126 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('../images/home-cake.png') no-repeat;
+  background-position: center top -210px;
+  background-color: rgb(251, 235, 234);
+}
+
+.main__title {
+  font-family: 'Playfair Display', serif;
+  color: rgb(45, 40, 41);
+  text-align: center;
+  font-size: 41px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  line-height: 0.9;
+  padding-top: 127px;
+}
+
+.main__caption {
+  font-family: 'introScriptR-H2Base';
+  color: rgb(50, 49, 61);
+  font-size: 22px;
+  padding-top: 22px;
+}
+
+.main__list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 42px;
+}
+
+.main__button {
+  font-family: 'circe';
+  text-transform: uppercase;
+  background-color: #f50049;
+  color: #ffffff;
+  cursor: pointer;
+  height: 50px;
+  width: 225px;
+  border-radius: 30px;
+  border: none;
+}
+
+.main__button:hover {
+  box-shadow: 0 3px 6px #f50049;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-content {
+    align-items: flex-start;
+    background: url('../images/home-cake__desktop.png'),
+                url('../images/whtie-berry__top.png'),
+                url('../images/white-raspberries.png'),
+                url('../images/white-berry__bot.png');
+    background-repeat: no-repeat;
+    background-position: right -140px top 10px,
+                         right 372px top 30px,
+                         right 437px top 250px,
+                         right 397px top 398px;
+    background-color: rgb(251, 235, 234);
+  }
+
+  .main__title {
+    order: 1;
+    font-size: 60px;
+    padding-top: 103px;
+    text-align: left;
+  }
+
+  .main__caption {
+    order: 2;
+    font-size: 35px;
+    padding-top: 28px;
+    padding-bottom: 55px;
+  }
+
+  .main__button {
+    order: 3;
+  }
+
+  .main__list {
+    order: 4;
+    flex-direction: row;
+    padding-top: 149px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .main {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .main-content {
+    background: url('../images/home-cake__display.png'),
+                url('../images/white-berry__top__big.png'),
+                url('../images/white-raspberries__big.png'),
+                url('../images/white-berry__bot__big.png');
+    background-repeat: no-repeat;
+    background-position:  595px 15px,
+                          560px 40px,
+                          525px 225px,
+                          360px 385px;
+  }
+
+  .main__title {
+    font-size: 80px;
+    padding-top: 146px;
+    letter-spacing: 5px;
+  }
+
+  .main__caption {
+    font-size: 40px;
+    letter-spacing: 0.7px;
+    padding-bottom: 58px;
+  }
+
+  .main__list {
+    padding-top: 130px;
+    padding-bottom: 310px;
+  }
+
+}

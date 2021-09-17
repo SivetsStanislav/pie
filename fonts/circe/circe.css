@@ -1,0 +1,11 @@
+@font-face {
+  font-family: circe;
+  src: url('./CRC35.otf') format("opentype");
+}
+
+@font-face {
+  font-family: circe;
+  src: url('./CRC35.otf') format("opentype");
+  font-weight: bold;
+}
+
