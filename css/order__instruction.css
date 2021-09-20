@@ -1,0 +1,29 @@
+.order__instruction {
+  display: flex;
+  flex-direction: column;
+  max-width: 331px;
+  margin: auto;
+  list-style-type: decimal;
+  counter-reset: myCounter;
+}
+
+.order__instruction-item {
+  display: flex;
+  padding-bottom: 30px;
+  list-style: none;
+}
+
+.order__instruction-item::before {
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+  margin-top: -13px;
+  color: white;
+}
+
+.order__instruction-item:last-of-type {
+  padding-bottom: 0px;
+}
+
+

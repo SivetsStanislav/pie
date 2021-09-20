@@ -1,0 +1,14 @@
+.order-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.order-body__title {
+  padding-top: 33px;
+}
+
+.order-body__list {
+  padding: 37px 0px 147px 20px;
+}
+

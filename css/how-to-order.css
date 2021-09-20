@@ -1,0 +1,10 @@
+.how-to-order {
+  background: radial-gradient(at 50% 100%, #e0343a 30%, #e1323b 70%);;
+}
+
+.how-to-order__container {
+  display: flex;
+  justify-content: center;
+  background: url('../images/box-with-hands__own.png') no-repeat;
+  background-position: center top 315px;
+}
