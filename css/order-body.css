@@ -12,3 +12,32 @@
   padding: 37px 0px 147px 20px;
 }
 
+@media only screen and (min-width: 768px) {
+  .order-body {
+    align-items: center;
+    padding-left: 280px;
+  }
+
+  .order-body__title {
+    padding: 49px 211px 0px 0px;
+  }
+
+  .order-body__list {
+    padding: 37px 0px 67px 0px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .order-body {
+    padding-left: 750px;
+    align-items: flex-end;
+  }
+
+  .order-body__title {
+    padding: 123px 210px 0px 0px;
+  }
+
+  .order-body__list {
+    padding: 40px 0px 184px 0px;
+  }
+}

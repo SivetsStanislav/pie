@@ -4,7 +4,7 @@
   max-width: 331px;
   margin: auto;
   list-style-type: decimal;
-  counter-reset: myCounter;
+  counter-reset: ol-counter;
 }
 
 .order__instruction-item {
@@ -14,8 +14,8 @@
 }
 
 .order__instruction-item::before {
-  counter-increment: myCounter;
-  content: counter(myCounter);
+  counter-increment: ol-counter;
+  content: counter(ol-counter);
   font-family: 'Playfair Display', serif;
   font-size: 38px;
   margin-top: -13px;
@@ -26,4 +26,30 @@
   padding-bottom: 0px;
 }
 
+@media only screen and (min-width: 768px) {
+  .order__instruction {
+    max-width: 396px;
+  }
 
+  .order__instruction-item {
+    padding-bottom: 43px;
+  }
+
+  .order__instruction-item:first-of-type {
+    padding-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .order__instruction {
+    max-width: 475px;
+  }
+
+  .order__instruction-item {
+    padding-bottom: 24px;
+  }
+
+  .order__instruction-item::before {
+    font-size: 60px;
+  }
+}

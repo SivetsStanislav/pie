@@ -10,7 +10,6 @@
 
 @media only screen and (min-width: 1366px) {
   .base {
-    display: flex;
     padding: 0px 70px;
     width: 1541px;
   }

@@ -15,11 +15,20 @@
   .headline {
     font-size: 28px;
   }
+
+  .headline.headline--white {
+    font-size: 28px;
+  }
 }
 
 @media only screen and (min-width: 1366px) {
   .headline {
     font-size: 40px;
     letter-spacing: 0.2px;
+  }
+
+  .headline.headline--white {
+    font-size: 37px;
+    letter-spacing: 1.7px;
   }
 }
