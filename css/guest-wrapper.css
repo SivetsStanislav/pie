@@ -1,0 +1,29 @@
+.guest-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.guest-wrapper__title {
+  align-self: center;
+  padding-top: 35px;
+}
+
+.guest-wrapper__caption {
+  padding-top: 15px;
+}
+
+.guest-wrapper__phone-number {
+  padding-top: 30px;
+}
+
+.guest-wrapper__email {
+  padding-top: 16px;
+}
+
+.guest-wrapper__icons-container {
+  padding: 17px 0px 65px 0px;
+}
+
+.guest-wrapper__icons-container-head {
+  padding-bottom: 28px;
+}

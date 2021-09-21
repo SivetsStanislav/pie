@@ -19,9 +19,6 @@
 }
 
 .main__caption {
-  font-family: 'introScriptR-H2Base';
-  color: rgb(50, 49, 61);
-  font-size: 22px;
   padding-top: 22px;
 }
 
@@ -30,22 +27,6 @@
   flex-direction: column;
   padding-top: 20px;
   padding-bottom: 42px;
-}
-
-.main__button {
-  font-family: 'circe';
-  text-transform: uppercase;
-  background-color: #f50049;
-  color: #ffffff;
-  cursor: pointer;
-  height: 50px;
-  width: 225px;
-  border-radius: 30px;
-  border: none;
-}
-
-.main__button:hover {
-  box-shadow: 0 3px 6px #f50049;
 }
 
 @media only screen and (min-width: 768px) {
@@ -72,12 +53,11 @@
 
   .main__caption {
     order: 2;
-    font-size: 35px;
     padding-top: 28px;
     padding-bottom: 55px;
   }
 
-  .main__button {
+  .button--main {
     order: 3;
   }
 

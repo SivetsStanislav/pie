@@ -8,6 +8,22 @@
   color: #ffffff;
 }
 
+.social-media-icon--red{
+  margin-left: 30px;
+}
+
+.social-media-icon--red._icon-instagram {
+  margin-left: 0px;
+}
+
+.social-media-icon.social-media-icon--red::before {
+  font-size: 32px;
+  color: #f5074e;
+  border: 15px solid white;
+  border-radius: 50%;
+  background-color: white;
+}
+
 .icons-box__dignity-icon::before {
   font-family: 'icons' !important;
   font-size: 32px;

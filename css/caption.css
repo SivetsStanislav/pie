@@ -1,0 +1,18 @@
+.caption {
+  font-family: 'introScriptR-H2Base';
+  color: rgb(50, 49, 61);
+  font-size: 22px;
+}
+
+@media only screen and (min-width: 768px) {
+  .caption {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .caption {
+    font-size: 40px;
+    letter-spacing: 0.7px;
+  }
+}

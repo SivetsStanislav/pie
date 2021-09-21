@@ -12,6 +12,9 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/breadcrumbs.css">
   <link rel="stylesheet" type="text/css" href="css/how-to-order.css">
+  <link rel="stylesheet" type="text/css" href="css/guest-data.css">
+  <link rel="stylesheet" type="text/css" href="css/guest-wrapper.css">
+  <link rel="stylesheet" type="text/css" href="css/feedback-box.css">
   <link rel="stylesheet" type="text/css" href="css/menu-of-cakes.css">
   <link rel="stylesheet" type="text/css" href="css/logo.css">
   <link rel="stylesheet" type="text/css" href="css/order-body.css">
@@ -29,7 +32,12 @@
   <link rel="stylesheet" type="text/css" href="css/instruction-container.css">
   <link rel="stylesheet" type="text/css" href="css/cake-block.css">
   <link rel="stylesheet" type="text/css" href="css/main__list.css">
+  <link rel="stylesheet" type="text/css" href="css/description.css">
   <link rel="stylesheet" type="text/css" href="css/copyright.css">
+  <link rel="stylesheet" type="text/css" href="css/caption.css">
+  <link rel="stylesheet" type="text/css" href="css/input-style.css">
+  <link rel="stylesheet" type="text/css" href="css/button.css">
+  <link rel="stylesheet" type="text/css" href="css/email.css">
   <link rel="stylesheet" type="text/css" href="fonts/introScriptR/introScriptR.css">
   <link rel="stylesheet" type="text/css" href="fonts/circe/circe.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -84,7 +92,7 @@
       <h1 class="main__title">
         Торты<br>на заказ
       </h1>
-      <p class="main__caption">
+      <p class="caption main__caption">
         Ручная работа
       </p>
       <ul class="main__list">
@@ -97,7 +105,7 @@
           <p class="icons-box__text">Доставка бесплатно при заказе от 2000 рублей*</p>
         </li>
       </ul>
-      <button class="main__button">
+      <button class="button button--main">
         Выбрать торт
       </button>
     </div>
@@ -211,6 +219,51 @@
             </li>
           </ol>
         </div>
+      </div>
+    </div>
+  </section>
+  <section class="guest-data">
+    <div class="base guest-wrapper">
+      <div class="guest-wrapper__title">
+        <h2 class="headline">
+          Контакты
+        </h2>
+      </div>
+      <p class="caption guest-wrapper__caption">
+        Остались вопросы?
+      </p>
+      <form class="feedback-box" action="#" method="get">
+        <label class="description feedback-box__head">
+          Заполните форму ниже и наш кандитер<br>
+          свяжется с Вами
+        </label>
+        <input class="input-style feedback-box__name" tabindex="1" placeholder="Ваше имя"
+               type="text" name="name" maxlength="40">
+        <input class="input-style feedback-box__mail" tabindex="2" placeholder="Email адрес"
+               type="email" name="email" maxlength="30">
+        <textarea class="input-style feedback-box__question" tabindex="3"
+                  placeholder="Ваш вопрос" name="question" maxlength="500"></textarea>
+        <button class="button button--form" type="submit" name="submit">
+          Отправить
+        </button>
+      </form>
+      <div class="guest-wrapper__phone-number">
+        <p class="description guest-wrapper__phone-number-head">
+          Или позвоните по телефону:
+        </p>
+        <a class="phone-number phone-number--guest" href=tel:+79068999296>
+          +7 906 899 92 96
+        </a>
+      </div>
+      <div class="description guest-wrapper__email">
+        Наша почта : <a class="email" href="#">bakerybypavel@mail.ru</a>
+      </div>
+      <div class="guest-wrapper__icons-container">
+        <p class="description guest-wrapper__icons-container-head">
+          Мы в соц. сетях:
+        </p>
+        <a href="" class="social-media-icon social-media-icon--red _icon-instagram"></a>
+        <a href="" class="social-media-icon social-media-icon--red _icon-vk"></a>
       </div>
     </div>
   </section>

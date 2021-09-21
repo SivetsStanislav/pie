@@ -1,0 +1,23 @@
+.feedback-box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7px;
+}
+
+.feedback-box__name {
+  height: 50px;
+  margin-top: 8px;
+}
+
+.feedback-box__mail {
+  height: 50px;
+  margin-top: 10px;
+}
+
+.input-style.feedback-box__question {
+  resize: none;
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px;
+}
+

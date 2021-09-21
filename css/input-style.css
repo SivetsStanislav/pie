@@ -1,0 +1,14 @@
+.input-style {
+  border: none;
+  border-radius: 3px;
+  padding: 0px 10px;
+}
+.input-style::placeholder {
+  font-family: 'Circe normal';
+  font-size: 14px;
+  opacity: 0.3;
+}
+
+.input-style:focus {
+  box-shadow: 0 0 10px #f50049;
+}

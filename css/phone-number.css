@@ -14,6 +14,10 @@
   color: black;
 }
 
+.phone-number.phone-number--guest {
+  color: black;
+}
+
 @media only screen and (min-width: 768px) {
   .phone-number.phone-number--top {
     font-size: 14px;
