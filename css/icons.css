@@ -4,7 +4,7 @@
   color: rgba(255, 255, 255, 0.452);
 }
 
-.social-media-icon::before:hover {
+.social-media-icon:hover::before {
   color: #ffffff;
 }
 
@@ -14,14 +14,23 @@
 
 .social-media-icon--red._icon-instagram {
   margin-left: 0px;
+  height: 100%;
+  width: 100%;
 }
 
-.social-media-icon.social-media-icon--red::before {
+.social-media-icon--red::before {
   font-size: 32px;
   color: #f5074e;
-  border: 15px solid white;
+  padding: 15px;
+  border: 1px solid white;
   border-radius: 50%;
   background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.social-media-icon--red:hover::before {
+  box-shadow: 0 0 5px #f5074e;
 }
 
 .icons-box__dignity-icon::before {
@@ -38,13 +47,16 @@
   .icons-box__dignity-icon::before {
     font-size: 52px;
   }
-
 }
 
 @media only screen and (min-width: 1366px) {
 
 .social-media-icon::before  {
     color: rgba(0, 0, 0, 0.425);
+  }
+
+  .social-media-icon--red::before {
+    color: #f5074e;
   }
 
 }

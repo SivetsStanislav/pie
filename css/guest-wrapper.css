@@ -27,3 +27,70 @@
 .guest-wrapper__icons-container-head {
   padding-bottom: 28px;
 }
+
+@media only screen and (min-width: 768px) {
+  .guest-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .guest-wrapper__title {
+    width: 100%;
+    padding-top: 45px;
+  }
+
+  .guest-wrapper__caption {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .guest-wrapper__contacts {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 18px 0px 0px 75px;
+  }
+
+  .guest-wrapper__phone-number {
+    padding: 0px;
+  }
+
+  .guest-wrapper__icons-container-head {
+    padding-bottom: 38px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .guest-wrapper {
+    padding-bottom: 188px;
+  }
+
+  .guest-wrapper__title {
+    padding-top: 75px;
+  }
+
+  .guest-wrapper__caption {
+    padding-top: 37px;
+  }
+
+  .guest-wrapper__contacts {
+    padding: 22px 0px 0px 80px;
+  }
+
+  .guest-wrapper__phone-number {
+    padding: 0px;
+  }
+
+  .guest-wrapper__email {
+    padding-top: 35px;
+  }
+
+  .guest-wrapper__icons-container {
+    padding-top: 30px;
+  }
+
+  .guest-wrapper__icons-container-head {
+    padding-bottom: 38px;
+  }
+}

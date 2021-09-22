@@ -32,4 +32,9 @@
     font-size: 14px;
     letter-spacing: 0.27px;
   }
+
+  .phone-number.phone-number--guest {
+    font-size: 19px;
+
+  }
 }

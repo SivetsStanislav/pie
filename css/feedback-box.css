@@ -21,3 +21,39 @@
   padding: 10px;
 }
 
+@media only screen and (min-width: 768px) {
+  .feedback-box {
+    width: 50%;
+    padding-top: 17px;
+    padding-bottom: 110px;
+  }
+
+  .feedback-box__name {
+    margin-top: 14px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .feedback-box {
+    width: 36%;
+    padding-top: 22px;
+    padding-bottom: 110px;
+  }
+
+  .feedback-box__name {
+    height: 20px;
+    margin-top: 50px;
+  }
+
+  .feedback-box__mail {
+    height: 20px;
+    margin-top: 40px;
+  }
+
+  .input-style.feedback-box__question {
+    resize: none;
+    height: 20px;
+    margin-top: 40px;
+    padding: 0px;
+  }
+}

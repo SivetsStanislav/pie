@@ -22,3 +22,26 @@
 .button:hover {
   box-shadow: 0 3px 6px #f50049;
 }
+
+@media only screen and (min-width: 768px) {
+  .button.button--form {
+    align-self: flex-start;
+    text-transform: none;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    height: 43px;
+    width: 160px;
+    margin-top: 28px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .button.button--form {
+    text-transform: none;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    height: 50px;
+    width: 180px;
+    margin-top: 80px;
+  }
+}

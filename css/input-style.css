@@ -12,3 +12,11 @@
 .input-style:focus {
   box-shadow: 0 0 10px #f50049;
 }
+
+@media only screen and (min-width: 1366px) {
+  .input-style {
+    border-bottom: 1px solid #d3d3d3;
+    background-color: #fbebea;
+    padding: 0px;
+  }
+}
