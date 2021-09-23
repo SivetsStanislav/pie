@@ -63,14 +63,18 @@
 
 @media only screen and (min-width: 1366px) {
   .guest-wrapper {
+    justify-content: center;
     padding-bottom: 188px;
   }
 
   .guest-wrapper__title {
+    width: 62%;
     padding-top: 75px;
   }
 
   .guest-wrapper__caption {
+    padding-left: 115px;
+    width: 70%;
     padding-top: 37px;
   }
 

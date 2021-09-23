@@ -18,5 +18,6 @@
   .guest-data {
     background-size: 940px 415px;
     background-position: left 485px top 425px;
+    width: 100%;
   }
 }

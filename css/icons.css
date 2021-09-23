@@ -14,8 +14,6 @@
 
 .social-media-icon--red._icon-instagram {
   margin-left: 0px;
-  height: 100%;
-  width: 100%;
 }
 
 .social-media-icon--red::before {
@@ -25,12 +23,11 @@
   border: 1px solid white;
   border-radius: 50%;
   background-color: white;
-  height: 100%;
-  width: 100%;
 }
 
 .social-media-icon--red:hover::before {
   box-shadow: 0 0 5px #f5074e;
+  color: #f5074e;
 }
 
 .icons-box__dignity-icon::before {
