@@ -1,9 +1,9 @@
-.guest-data {
+.guest-question-section {
   background-color: rgb(251, 235, 234);
 }
 
 @media only screen and (min-width: 768px) {
-  .guest-data {
+  .guest-question-section {
     background: url('../images/plate-with-strawbery__own.png') no-repeat;
     background-position: right -145px top 320px;
     background-size: 600px 270px;
@@ -15,7 +15,7 @@
 }
 
 @media only screen and (min-width: 1366px) {
-  .guest-data {
+  .guest-question-section {
     background-size: 940px 415px;
     background-position: left 485px top 425px;
     width: 100%;
