@@ -4,7 +4,7 @@
 
 @media only screen and (min-width: 768px) {
   .guest-question-section {
-    background: url('../images/plate-with-strawbery__own.png') no-repeat;
+    background: url('../../images/plate-with-strawbery__own.png') no-repeat;
     background-position: right -145px top 320px;
     background-size: 600px 270px;
     background-color: rgb(251, 235, 234);
