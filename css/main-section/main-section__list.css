@@ -1,14 +1,14 @@
-.list__icons-box {
+.main-section__list-item {
   display: flex;
   flex-direction: row;
   padding-top: 15px;
 }
 
-.list__icons-box:first-of-type {
+.main-section__list-item:first-of-type {
   padding-top: 0px;
 }
 
-.icons-box__text {
+.main-section__list-text {
   font-family: 'circe';
   font-size: 14px;
   letter-spacing: 0.1px;
@@ -16,7 +16,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .list__icons-box {
+  .main-section__list-item {
     padding: 0px;
     align-items: center;
     width: 220px;
@@ -24,11 +24,11 @@
 }
 
 @media only screen and (min-width: 1366px) {
-  .list__icons-box {
+  .main-section__list-item {
     width: 230px;
   }
 
-  .icons-box__text {
+  .main-section__list-text {
     padding-left: 18px;
   }
 }
