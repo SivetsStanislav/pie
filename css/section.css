@@ -1,15 +1,15 @@
-.base {
+.section {
   padding: 0px 20px;
 }
 
 @media only screen and (min-width: 768px) {
-  .base {
+  .section {
     padding: 0px 45px;
   }
 }
 
 @media only screen and (min-width: 1366px) {
-  .base {
+  .section {
     padding: 0px 70px;
     width: 1541px;
   }
