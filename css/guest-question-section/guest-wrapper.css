@@ -12,6 +12,14 @@
   padding-top: 15px;
 }
 
+.guest-wrapper__phone-number,
+.guest-wrapper__email,
+.guest-wrapper__icons-container {
+  font-family: 'Circe normal';
+  font-size: 14px;
+  line-height: 16px;
+}
+
 .guest-wrapper__phone-number {
   padding-top: 30px;
 }
@@ -80,6 +88,13 @@
 
   .guest-wrapper__contacts {
     padding: 22px 0px 0px 80px;
+  }
+
+  .guest-wrapper__phone-number,
+  .guest-wrapper__email,
+  .guest-wrapper__icons-container {
+    font-size: 20px;
+    line-height: 16px;
   }
 
   .guest-wrapper__phone-number {

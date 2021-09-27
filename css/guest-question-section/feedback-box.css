@@ -4,6 +4,13 @@
   padding-top: 7px;
 }
 
+
+.feedback-box__head {
+  font-family: 'Circe normal';
+  font-size: 14px;
+  line-height: 16px;
+}
+
 .feedback-box__name,
 .feedback-box__mail,
 .feedback-box__question {
@@ -60,6 +67,11 @@
     width: 36%;
     padding-top: 22px;
     padding-bottom: 110px;
+  }
+
+  .feedback-box__head {
+    font-size: 20px;
+    line-height: 16px;
   }
 
   .feedback-box__name,
