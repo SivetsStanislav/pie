@@ -1,0 +1,93 @@
+.order-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 331px;
+  margin: auto;
+  list-style-type: decimal;
+  counter-reset: ol-counter;
+}
+
+.order-list__item {
+  display: flex;
+  padding-bottom: 30px;
+  list-style: none;
+}
+
+.order-list__item::before {
+  counter-increment: ol-counter;
+  content: counter(ol-counter);
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+  margin-top: -13px;
+  color: white;
+}
+
+.order-list__item:last-of-type {
+  padding-bottom: 0px;
+}
+
+.order-list__item-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  color: white;
+}
+
+.order-list__item-head {
+  font-family: 'Circe normal';
+  font-size: 15px;
+  padding-bottom: 8px;
+}
+
+.order-list__item-text {
+  font-family: 'circe';
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .order-list {
+    max-width: 396px;
+  }
+
+  .order-list__item {
+    padding-bottom: 43px;
+  }
+
+  .order-list__item:first-of-type {
+    padding-left: 5px;
+  }
+
+  .order-list__item-box {
+    padding-left: 23px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .order-list {
+    max-width: 475px;
+  }
+
+  .order-list__item {
+    padding-bottom: 24px;
+  }
+
+  .order-list__item::before {
+    font-size: 60px;
+  }
+
+  .order-list__item-box {
+    padding-left: 20px;
+  }
+
+  .order-list__item-head {
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    padding: 7px 0px 0px 0px;
+  }
+
+  .order-list__item-text {
+    font-family: 'circe';
+    font-size: 20px;
+    padding: 10px 0px 0px 0px;
+  }
+}
