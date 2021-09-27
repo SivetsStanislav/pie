@@ -1,6 +1,6 @@
 .cake-block {
   display: grid;
-  grid-template-columns: 280px;
+  grid-template-columns: 1fr;
   grid-template-rows: 15px 105px;
   background-color: white;
   position: relative;

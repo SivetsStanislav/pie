@@ -1,27 +1,4 @@
 .how-to-order-section {
-  display: flex;
-  justify-content: center;
-  background: url('../../images/box-with-hands__own.png') no-repeat;
-  background-position: center top 315px;
   background-color: #e1323a;
 }
 
-@media only screen and (min-width: 768px) {
-  .how-to-order-section {
-    justify-content: space-around;
-    background: url('../../images/box-with-hands__own__tablet.png') no-repeat;
-    background-position: -310px -10px;
-    background-color: #e1323a;
-  }
-}
-
-@media only screen and (min-width: 1366px) {
-  .how-to-order-section {
-    background: none;
-  }
-
-  .how-to-order__container {
-    background: url('../../images/box-with-hands__own__dispaly.png') no-repeat;
-    background-position: left -220px top -43px;
-  }
-}

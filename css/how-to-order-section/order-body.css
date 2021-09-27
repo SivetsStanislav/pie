@@ -2,6 +2,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
+  background: url('../../images/box-with-hands__own.png') no-repeat;
+  background-position: center top 315px;
 }
 
 .order-body__title {
@@ -15,6 +18,9 @@
 @media only screen and (min-width: 768px) {
   .order-body {
     align-items: center;
+    justify-content: space-around;
+    background: url('../../images/box-with-hands__own__tablet.png') no-repeat;
+    background-position: -310px -10px;
     padding-left: 280px;
   }
 
@@ -28,9 +34,16 @@
 }
 
 @media only screen and (min-width: 1366px) {
+  .how-to-order-section {
+    display: flex;
+    justify-content: center;
+  }
+
   .order-body {
-    padding-left: 750px;
     align-items: flex-end;
+    background: url('../../images/box-with-hands__own__dispaly.png') no-repeat;
+    background-position: left -220px top -43px;
+    width: 100%;
   }
 
   .order-body__title {

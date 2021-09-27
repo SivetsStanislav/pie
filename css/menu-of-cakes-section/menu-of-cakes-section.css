@@ -1,10 +1,7 @@
-.menu-of-cakes-section {
-  background-color: rgb(251, 235, 234);
-  padding: 0px 20px;
-}
-
 @media only screen and (min-width: 1366px) {
   .menu-of-cakes-section {
+    display: flex;
+    justify-content: center;
     margin-top: -164px;
   }
 }

@@ -41,6 +41,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background: url('../../images/plate-with-strawbery__own.png') no-repeat;
+    background-position: right -145px top 320px;
+    background-size: 600px 270px;
   }
 
   .guest-wrapper__title {
@@ -72,6 +75,8 @@
 @media only screen and (min-width: 1366px) {
   .guest-wrapper {
     justify-content: center;
+    background-size: 940px 415px;
+    background-position: left 485px top 425px;
     padding-bottom: 188px;
   }
 
