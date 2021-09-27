@@ -30,20 +30,8 @@
   color: #f5074e;
 }
 
-.main-section__list-icon::before {
-  font-family: 'icons' !important;
-  font-size: 32px;
-  color: #f5074e;
-}
-
 ._icon-cereal:before {
   font-weight: 700;
-}
-
-@media only screen and (min-width: 768px) {
-  .main-section__list-icon::before {
-    font-size: 52px;
-  }
 }
 
 @media only screen and (min-width: 1366px) {

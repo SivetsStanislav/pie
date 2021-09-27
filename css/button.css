@@ -4,8 +4,8 @@
   background-color: #f50049;
   color: #ffffff;
   cursor: pointer;
-  height: 50px;
-  width: 225px;
+  height: 100%;
+  width: 100%;
   border-radius: 30px;
   border: none;
 }
@@ -37,9 +37,7 @@
 
 @media only screen and (min-width: 1366px) {
   .button.button--form {
-    text-transform: none;
     font-size: 18px;
-    letter-spacing: 0.5px;
     height: 50px;
     width: 180px;
     margin-top: 80px;
