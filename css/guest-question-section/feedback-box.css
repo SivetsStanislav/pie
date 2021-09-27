@@ -4,6 +4,28 @@
   padding-top: 7px;
 }
 
+.feedback-box__name,
+.feedback-box__mail,
+.feedback-box__question {
+  border: none;
+  border-radius: 3px;
+  padding: 0px 10px;
+}
+
+.feedback-box__name::placeholder,
+.feedback-box__mail::placeholder,
+.feedback-box__question::placeholder {
+  font-family: 'Circe normal';
+  font-size: 14px;
+  opacity: 0.3;
+}
+
+.feedback-box__name:focus,
+.feedback-box__mail:focus,
+.feedback-box__question:focus {
+  box-shadow: 0 3px 6px #f50049;
+}
+
 .feedback-box__name {
   height: 50px;
   margin-top: 8px;
@@ -14,7 +36,7 @@
   margin-top: 10px;
 }
 
-.input-style.feedback-box__question {
+.feedback-box__question {
   resize: none;
   height: 100px;
   margin-top: 10px;
@@ -38,6 +60,14 @@
     width: 36%;
     padding-top: 22px;
     padding-bottom: 110px;
+  }
+
+  .feedback-box__name,
+  .feedback-box__mail,
+  .feedback-box__question {
+    border-bottom: 1px solid #d3d3d3;
+    background-color: #fbebea;
+    padding: 0px;
   }
 
   .feedback-box__name {
