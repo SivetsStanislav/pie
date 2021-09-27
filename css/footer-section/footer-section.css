@@ -4,32 +4,32 @@
   justify-content: flex-end;
 }
 
-.footer__body {
+.footer-section__body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 0px 20px;
 }
 
-.footer__logo-container {
+.footer-section__body-logo {
   padding-top: 42px;
 }
-.footer__navigation {
+.footer-section__body-navigation {
   padding-top: 25px;
 
 }
 
-.footer__phone-number-container {
+.footer-section__body-phone-number {
   padding-top: 13px;
 }
 
-.footer__icons-container {
+.footer-section__body-icons {
   letter-spacing: 6px;
   padding-top: 28px;
   padding-bottom: 29px;
 }
 
-.footer__item-line {
+.footer-section__body-line {
   height: 1px;
   background-color: #959595;
   width: 100%;
@@ -37,47 +37,47 @@
   border: none;
 }
 
-.footer__copyright {
+.footer-section__body-copyright {
   padding: 10px 0px;
 }
 
 
 @media only screen and (min-width: 768px) {
 
-  .footer__body {
+  .footer-section__body {
     flex-direction: row;
     padding: 0px 20px 10px 20px;
     align-items: baseline;
   }
 
-  .footer__logo-container {
+  .footer-section__body-logo {
     order: 1;
     padding-top: 34px;
   }
 
-  .footer__navigation {
+  .footer-section__body-navigation {
     padding: 0px 0px 0px 60px;
     order: 2;
     flex-grow: 1;
   }
 
-  .footer__item-line {
+  .footer-section__body-line {
     order: 3;
     margin: 35px 46px 14px 46px;
   }
 
-  .footer__phone-number-container {
+  .footer-section__body-phone-number {
     display: none;
   }
 
-  .footer__copyright {
+  .footer-section__body-copyright {
     order: 4;
     flex-grow: 1;
     align-self: center;
     padding: 0px 30px 0px 0px;
   }
 
-  .footer__icons-container {
+  .footer-section__body-icons {
     order: 5;
     flex-grow: 1;
     padding: 0px;
@@ -92,36 +92,36 @@
     background-color: #e8e8e8;
   }
 
-  .footer__body {
+  .footer-section__body {
     padding: 35px 75px 20px 75px;
     align-items: baseline;
   }
 
-  .footer__logo-container {
+  .footer-section__body-logo {
     order: 1;
     padding: 0px;
   }
 
-  .footer__navigation {
+  .footer-section__body-navigation {
     order: 2;
     padding: 0px;
     align-self: center;
     padding: 0px 160px;
   }
 
-  .footer__icons-container {
+  .footer-section__body-icons {
     order: 3;
     flex-grow: unset;
     padding: 0px 0px 0px 0px;
   }
 
-  .footer__item-line {
+  .footer-section__body-line {
     order: 4;
     background-color: #d0d0d0;
     margin: 47px 0px 0px 0px;
   }
 
-  .footer__copyright {
+  .footer-section__body-copyright {
     order: 5;
     align-self: center;
     padding: 18px 0px 0px 0px;
