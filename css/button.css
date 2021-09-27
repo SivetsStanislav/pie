@@ -10,13 +10,10 @@
   border: none;
 }
 
-.button.button--form {
-  align-self: center;
+.button--small {
   text-transform: none;
   font-size: 18px;
   letter-spacing: 0.5px;
-  width: 180px;
-  margin-top: 20px;
 }
 
 .button:hover {
@@ -24,22 +21,13 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .button.button--form {
-    align-self: flex-start;
-    text-transform: none;
+  .button--small {
     font-size: 14px;
-    letter-spacing: 0.5px;
-    height: 43px;
-    width: 160px;
-    margin-top: 28px;
   }
 }
 
 @media only screen and (min-width: 1366px) {
-  .button.button--form {
+  .button--small {
     font-size: 18px;
-    height: 50px;
-    width: 180px;
-    margin-top: 80px;
   }
 }

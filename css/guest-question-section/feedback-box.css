@@ -50,6 +50,13 @@
   padding: 10px;
 }
 
+.feedback-box__button {
+  align-self: center;
+  height: 50px;
+  width: 180px;
+  margin-top: 20px;
+}
+
 @media only screen and (min-width: 768px) {
   .feedback-box {
     width: 50%;
@@ -60,11 +67,18 @@
   .feedback-box__name {
     margin-top: 14px;
   }
+
+  .feedback-box__button {
+    align-self: flex-start;
+    height: 43px;
+    width: 160px;
+    margin-top: 28px;
+  }
 }
 
 @media only screen and (min-width: 1366px) {
   .feedback-box {
-    width: 36%;
+    width: 45%;
     padding-top: 22px;
     padding-bottom: 110px;
   }
@@ -92,10 +106,16 @@
     margin-top: 40px;
   }
 
-  .input-style.feedback-box__question {
+  .feedback-box__question {
     resize: none;
     height: 20px;
     margin-top: 40px;
     padding: 0px;
+  }
+
+  .feedback-box__button {
+    height: 50px;
+    width: 180px;
+    margin-top: 80px;
   }
 }
