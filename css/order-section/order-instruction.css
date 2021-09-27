@@ -1,4 +1,4 @@
-.order__instruction {
+.order-instruction {
   display: flex;
   flex-direction: column;
   max-width: 331px;
@@ -7,13 +7,13 @@
   counter-reset: ol-counter;
 }
 
-.order__instruction-item {
+.order-instruction__item {
   display: flex;
   padding-bottom: 30px;
   list-style: none;
 }
 
-.order__instruction-item::before {
+.order-instruction__item::before {
   counter-increment: ol-counter;
   content: counter(ol-counter);
   font-family: 'Playfair Display', serif;
@@ -22,34 +22,34 @@
   color: white;
 }
 
-.order__instruction-item:last-of-type {
+.order-instruction__item:last-of-type {
   padding-bottom: 0px;
 }
 
 @media only screen and (min-width: 768px) {
-  .order__instruction {
+  .order-instruction {
     max-width: 396px;
   }
 
-  .order__instruction-item {
+  .order-instruction__item {
     padding-bottom: 43px;
   }
 
-  .order__instruction-item:first-of-type {
+  .order-instruction__item:first-of-type {
     padding-left: 5px;
   }
 }
 
 @media only screen and (min-width: 1366px) {
-  .order__instruction {
+  .order-instruction {
     max-width: 475px;
   }
 
-  .order__instruction-item {
+  .order-instruction__item {
     padding-bottom: 24px;
   }
 
-  .order__instruction-item::before {
+  .order-instruction__item::before {
     font-size: 60px;
   }
 }
