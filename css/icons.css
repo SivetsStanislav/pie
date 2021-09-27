@@ -8,15 +8,15 @@
   color: #ffffff;
 }
 
-.social-media-icon--red{
+.social-media-icon--round{
   margin-left: 30px;
 }
 
-.social-media-icon--red._icon-instagram {
+.social-media-icon--round._icon-instagram {
   margin-left: 0px;
 }
 
-.social-media-icon--red::before {
+.social-media-icon--round::before {
   font-size: 32px;
   color: #f5074e;
   padding: 15px;
@@ -25,7 +25,7 @@
   background-color: white;
 }
 
-.social-media-icon--red:hover::before {
+.social-media-icon--round:hover::before {
   box-shadow: 0 0 5px #f5074e;
   color: #f5074e;
 }
@@ -40,7 +40,7 @@
     color: rgba(0, 0, 0, 0.425);
   }
 
-  .social-media-icon--red::before {
+  .social-media-icon--round::before {
     color: #f5074e;
   }
 
