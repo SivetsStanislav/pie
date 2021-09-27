@@ -1,4 +1,8 @@
-.order-body {
+.order-section {
+  background-color: #e1323a;
+}
+
+.order-section__body {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -7,16 +11,16 @@
   background-position: center top 315px;
 }
 
-.order-body__title {
+.order-section__body-title {
   padding-top: 33px;
 }
 
-.order-body__list {
+.order-section__body-list {
   padding: 37px 0px 147px 20px;
 }
 
 @media only screen and (min-width: 768px) {
-  .order-body {
+  .order-section__body {
     align-items: center;
     justify-content: space-around;
     background: url('../../images/box-with-hands__own__tablet.png') no-repeat;
@@ -24,33 +28,33 @@
     padding-left: 280px;
   }
 
-  .order-body__title {
+  .order-section__body-title {
     padding: 49px 211px 0px 0px;
   }
 
-  .order-body__list {
+  .order-section__body-list {
     padding: 37px 0px 67px 0px;
   }
 }
 
 @media only screen and (min-width: 1366px) {
-  .how-to-order-section {
+  .order-section {
     display: flex;
     justify-content: center;
   }
 
-  .order-body {
+  .order-section__body {
     align-items: flex-end;
     background: url('../../images/box-with-hands__own__dispaly.png') no-repeat;
     background-position: left -220px top -43px;
     width: 100%;
   }
 
-  .order-body__title {
+  .order-section__body-title {
     padding: 123px 210px 0px 0px;
   }
 
-  .order-body__list {
+  .order-section__body-list {
     padding: 40px 0px 184px 0px;
   }
 }
